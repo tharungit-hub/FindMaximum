@@ -11,7 +11,6 @@ To write a program to find the maximum of a list of numbers.
 ## Program:
 ~~~
 /*
-Program to find the exponentiation of a number.
 Developed by: M VIGNESH
 RegisterNumber: 21004061
 */
