@@ -9,26 +9,36 @@ To write a program to find the maximum of a list of numbers.
 2.	Use the sort() function or max() function or use the for loop to find the maximum mark.
 3.	Return the maximum value
 ## Program:
-
+~~~
+/*
+Program to find the exponentiation of a number.
+Developed by: M VIGNESH
+RegisterNumber: 21004061
+*/
+~~~
 i)	# To find the maximum of marks using the list method sort.
 ```Python
-
-
-
+def max_marks(marks):
+	marks.sort()
+	large = marks[-1]
+	return large
 ```
 
 ii)	# To find the maximum marks using the list method max().
 ```Python
-
-
-
+def max_marks(marks):
+	large = max(marks)
+	return large
 ```
 
 iii) # To find the maximum marks without using builtin functions.
 ```Python
-
-
-
+def max_marks(list1):
+	max = list1[0]
+	for i in list1:
+    	if i > max:
+        	max = i
+	return max
 ```
 ## Sample Input and Output
 ![output](./img/max_marks1.jpg) 
